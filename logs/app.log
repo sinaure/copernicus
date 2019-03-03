@@ -1,5 +1,250 @@
-2019-03-02 21:16:18,684 DEBUG u.n.NetcdfFile [main] Using IOSP ucar.nc2.iosp.hdf5.H5iosp
-2019-03-02 21:16:29,426 DEBUG u.n.NetcdfFile [main] Using IOSP ucar.nc2.iosp.hdf5.H5iosp
-2019-03-02 21:17:34,764 DEBUG u.n.NetcdfFile [main] Using IOSP ucar.nc2.iosp.hdf5.H5iosp
-2019-03-02 21:19:54,829 DEBUG u.n.NetcdfFile [main] Using IOSP ucar.nc2.iosp.hdf5.H5iosp
-2019-03-02 21:20:07,876 DEBUG u.n.NetcdfFile [main] Using IOSP ucar.nc2.iosp.hdf5.H5iosp
+2019-03-03 17:38:57,137 DEBUG u.n.NetcdfFile [main] Using IOSP ucar.nc2.iosp.hdf5.H5iosp
+2019-03-03 17:38:57,218 INFO c.e.c.ReadCdf [main] dataPos=17794 datatype=hdfType=1 byteSize=4 dataType=float unsigned=false isVString=false vpad=0 endian=1 isChunked (2045 26 9 4 ) hasFilter; //  signed LittleEndian
+/atmospheric_temperature_profile id= 3235 messages= 
+    type = SimpleDataspace(1);  ndims=3 flags=1 type=1  length=(4090,77,25,) max=(4090,77,25,)
+    type = Datatype(3);  datatype= 1 byteSize= 4 NCtype= float flags= 32 31 0  endian=LITTLE
+    type = Attribute(12);    Name= DIMENSION_LIST dataPos = 9088
+ mdt= datatype= 9 byteSize= 16 NCtype= null flags= 0 0 0  endian=LITTLE isVString= false parent= { datatype= 7 byteSize= 8 NCtype= long flags= 0 0 0  endian=LITTLE referenceType= 0}
+ mds= ndims=1 flags=1 type=1  length=(3,) max=(3,)
+    type = FillValue(5);    FillValue version= 3 spaceAllocateTime = 3 fillWriteTime=2 hasFillValue= true
+ size = 4 value= 0 0 -128 -65
+    type = FilterPipeline(11);    MessageFilter filters=
+    Filter id= 2 flags = 1 nValues=1 name= shuffle data = 4 
+    Filter id= 1 flags = 2 nValues=0 name= deflate data = 
+
+    type = Layout(8);  type= 2 (chunked) storageSize = (2045,26,9,4) dataSize=0 dataAddress=17794
+    type = AttributeInfo(21);    MessageAttributeInfo  fractalHeapAddress=-1 v2BtreeAddress=-1
+    type = Attribute(12);    Name= _FillValue dataPos = 3516
+ mdt= datatype= 1 byteSize= 4 NCtype= float flags= 32 31 0  endian=LITTLE
+ mds= ndims=1 flags=1 type=1  length=(1,) max=(1,)
+    type = Attribute(12);    Name= coordinates dataPos = 3559
+ mdt= datatype= 3 byteSize= 18 NCtype= char flags= 0 0 0  endian=LITTLE
+ mds= ndims=0 flags=0 type=0  length=() max=()
+    type = Attribute(12);    Name= long_name dataPos = 3614
+ mdt= datatype= 3 byteSize= 23 NCtype= char flags= 0 0 0  endian=LITTLE
+ mds= ndims=0 flags=0 type=0  length=() max=()
+    type = Attribute(12);    Name= standard_name dataPos = 3678
+ mdt= datatype= 3 byteSize= 15 NCtype= char flags= 0 0 0  endian=LITTLE
+ mds= ndims=0 flags=0 type=0  length=() max=()
+    type = Attribute(12);    Name= units dataPos = 3726
+ mdt= datatype= 3 byteSize= 1 NCtype= char flags= 0 0 0  endian=LITTLE
+ mds= ndims=0 flags=0 type=0  length=() max=()
+    type = Attribute(12);    Name= valid_max dataPos = 3792
+ mdt= datatype= 1 byteSize= 4 NCtype= float flags= 32 31 0  endian=LITTLE
+ mds= ndims=1 flags=1 type=1  length=(1,) max=(1,)
+    type = Attribute(12);    Name= valid_min dataPos = 3861
+ mdt= datatype= 1 byteSize= 4 NCtype= float flags= 32 31 0  endian=LITTLE
+ mds= ndims=1 flags=1 type=1  length=(1,) max=(1,)
+2019-03-03 17:38:57,227 INFO c.e.c.ReadCdf [main] dataPos=13601800 datatype=hdfType=1 byteSize=4 dataType=float unsigned=false isVString=false vpad=0 endian=1 isChunked (4090 77 1 4 ) hasFilter; //  signed LittleEndian
+/horizontal_wind id= 3873 messages= 
+    type = SimpleDataspace(1);  ndims=3 flags=1 type=1  length=(4090,77,2,) max=(4090,77,2,)
+    type = Datatype(3);  datatype= 1 byteSize= 4 NCtype= float flags= 32 31 0  endian=LITTLE
+    type = Attribute(12);    Name= DIMENSION_LIST dataPos = 13770
+ mdt= datatype= 9 byteSize= 16 NCtype= null flags= 0 0 0  endian=LITTLE isVString= false parent= { datatype= 7 byteSize= 8 NCtype= long flags= 0 0 0  endian=LITTLE referenceType= 0}
+ mds= ndims=1 flags=1 type=1  length=(3,) max=(3,)
+    type = FillValue(5);    FillValue version= 3 spaceAllocateTime = 3 fillWriteTime=2 hasFillValue= true
+ size = 4 value= 0 0 -16 124
+    type = FilterPipeline(11);    MessageFilter filters=
+    Filter id= 2 flags = 1 nValues=1 name= shuffle data = 4 
+    Filter id= 1 flags = 2 nValues=0 name= deflate data = 
+
+    type = Layout(8);  type= 2 (chunked) storageSize = (4090,77,1,4) dataSize=0 dataAddress=13601800
+    type = AttributeInfo(21);    MessageAttributeInfo  fractalHeapAddress=-1 v2BtreeAddress=-1
+    type = Attribute(12);    Name= _FillValue dataPos = 4154
+ mdt= datatype= 1 byteSize= 4 NCtype= float flags= 32 31 0  endian=LITTLE
+ mds= ndims=1 flags=1 type=1  length=(1,) max=(1,)
+    type = Attribute(12);    Name= coordinates dataPos = 4197
+ mdt= datatype= 3 byteSize= 18 NCtype= char flags= 0 0 0  endian=LITTLE
+ mds= ndims=0 flags=0 type=0  length=() max=()
+    type = Attribute(12);    Name= long_name dataPos = 4252
+ mdt= datatype= 3 byteSize= 38 NCtype= char flags= 0 0 0  endian=LITTLE
+ mds= ndims=0 flags=0 type=0  length=() max=()
+    type = Attribute(12);    Name= units dataPos = 4323
+ mdt= datatype= 3 byteSize= 5 NCtype= char flags= 0 0 0  endian=LITTLE
+ mds= ndims=0 flags=0 type=0  length=() max=()
+    type = Attribute(12);    Name= valid_max dataPos = 4393
+ mdt= datatype= 1 byteSize= 4 NCtype= float flags= 32 31 0  endian=LITTLE
+ mds= ndims=1 flags=1 type=1  length=(1,) max=(1,)
+    type = Attribute(12);    Name= valid_min dataPos = 4462
+ mdt= datatype= 1 byteSize= 4 NCtype= float flags= 32 31 0  endian=LITTLE
+ mds= ndims=1 flags=1 type=1  length=(1,) max=(1,)
+2019-03-03 17:38:57,233 INFO c.e.c.ReadCdf [main] dataPos=13604936 datatype=hdfType=1 byteSize=4 dataType=float unsigned=false isVString=false vpad=0 endian=1 isChunked (4090 77 4 ) hasFilter; //  signed LittleEndian
+/humidity id= 4474 messages= 
+    type = SimpleDataspace(1);  ndims=2 flags=1 type=1  length=(4090,77,) max=(4090,77,)
+    type = Datatype(3);  datatype= 1 byteSize= 4 NCtype= float flags= 32 31 0  endian=LITTLE
+    type = Attribute(12);    Name= DIMENSION_LIST dataPos = 14226
+ mdt= datatype= 9 byteSize= 16 NCtype= null flags= 0 0 0  endian=LITTLE isVString= false parent= { datatype= 7 byteSize= 8 NCtype= long flags= 0 0 0  endian=LITTLE referenceType= 0}
+ mds= ndims=1 flags=1 type=1  length=(2,) max=(2,)
+    type = FillValue(5);    FillValue version= 3 spaceAllocateTime = 3 fillWriteTime=2 hasFillValue= true
+ size = 4 value= 0 0 -128 -65
+    type = FilterPipeline(11);    MessageFilter filters=
+    Filter id= 2 flags = 1 nValues=1 name= shuffle data = 4 
+    Filter id= 1 flags = 2 nValues=0 name= deflate data = 
+
+    type = Layout(8);  type= 2 (chunked) storageSize = (4090,77,4) dataSize=0 dataAddress=13604936
+    type = AttributeInfo(21);    MessageAttributeInfo  fractalHeapAddress=-1 v2BtreeAddress=-1
+    type = Attribute(12);    Name= _FillValue dataPos = 4735
+ mdt= datatype= 1 byteSize= 4 NCtype= float flags= 32 31 0  endian=LITTLE
+ mds= ndims=1 flags=1 type=1  length=(1,) max=(1,)
+    type = Attribute(12);    Name= coordinates dataPos = 4778
+ mdt= datatype= 3 byteSize= 18 NCtype= char flags= 0 0 0  endian=LITTLE
+ mds= ndims=0 flags=0 type=0  length=() max=()
+    type = Attribute(12);    Name= long_name dataPos = 4833
+ mdt= datatype= 3 byteSize= 17 NCtype= char flags= 0 0 0  endian=LITTLE
+ mds= ndims=0 flags=0 type=0  length=() max=()
+    type = Attribute(12);    Name= standard_name dataPos = 4891
+ mdt= datatype= 3 byteSize= 17 NCtype= char flags= 0 0 0  endian=LITTLE
+ mds= ndims=0 flags=0 type=0  length=() max=()
+    type = Attribute(12);    Name= units dataPos = 4941
+ mdt= datatype= 3 byteSize= 1 NCtype= char flags= 0 0 0  endian=LITTLE
+ mds= ndims=0 flags=0 type=0  length=() max=()
+    type = Attribute(12);    Name= valid_max dataPos = 5007
+ mdt= datatype= 1 byteSize= 4 NCtype= float flags= 32 31 0  endian=LITTLE
+ mds= ndims=1 flags=1 type=1  length=(1,) max=(1,)
+    type = Attribute(12);    Name= valid_min dataPos = 5076
+ mdt= datatype= 1 byteSize= 4 NCtype= float flags= 32 31 0  endian=LITTLE
+ mds= ndims=1 flags=1 type=1  length=(1,) max=(1,)
+2019-03-03 17:38:57,235 INFO c.e.c.ReadCdf [main] dataPos=13607552 datatype=hdfType=1 byteSize=4 dataType=float unsigned=false isVString=false vpad=0 endian=1 isChunked (25 4 ) hasFilter; //  signed LittleEndian
+/reference_pressure_level id= 5088 messages= 
+    type = SimpleDataspace(1);  ndims=1 flags=1 type=1  length=(25,) max=(25,)
+    type = Datatype(3);  datatype= 1 byteSize= 4 NCtype= float flags= 32 31 0  endian=LITTLE
+    type = FillValue(5);    FillValue version= 3 spaceAllocateTime = 3 fillWriteTime=2 hasFillValue= true
+ size = 4 value= 0 0 -128 -65
+    type = FilterPipeline(11);    MessageFilter filters=
+    Filter id= 2 flags = 1 nValues=1 name= shuffle data = 4 
+    Filter id= 1 flags = 2 nValues=0 name= deflate data = 
+
+    type = Layout(8);  type= 2 (chunked) storageSize = (25,4) dataSize=0 dataAddress=13607552
+    type = Attribute(12);    Name= DIMENSION_LIST dataPos = 13917
+ mdt= datatype= 9 byteSize= 16 NCtype= null flags= 0 0 0  endian=LITTLE isVString= false parent= { datatype= 7 byteSize= 8 NCtype= long flags= 0 0 0  endian=LITTLE referenceType= 0}
+ mds= ndims=1 flags=1 type=1  length=(1,) max=(1,)
+    type = AttributeInfo(21);    MessageAttributeInfo  fractalHeapAddress=-1 v2BtreeAddress=-1
+    type = Attribute(12);    Name= _FillValue dataPos = 5330
+ mdt= datatype= 1 byteSize= 4 NCtype= float flags= 32 31 0  endian=LITTLE
+ mds= ndims=1 flags=1 type=1  length=(1,) max=(1,)
+    type = Attribute(12);    Name= coordinates dataPos = 5373
+ mdt= datatype= 3 byteSize= 18 NCtype= char flags= 0 0 0  endian=LITTLE
+ mds= ndims=0 flags=0 type=0  length=() max=()
+    type = Attribute(12);    Name= long_name dataPos = 5428
+ mdt= datatype= 3 byteSize= 24 NCtype= char flags= 0 0 0  endian=LITTLE
+ mds= ndims=0 flags=0 type=0  length=() max=()
+    type = Attribute(12);    Name= standard_name dataPos = 5493
+ mdt= datatype= 3 byteSize= 12 NCtype= char flags= 0 0 0  endian=LITTLE
+ mds= ndims=0 flags=0 type=0  length=() max=()
+    type = Attribute(12);    Name= units dataPos = 5538
+ mdt= datatype= 3 byteSize= 3 NCtype= char flags= 0 0 0  endian=LITTLE
+ mds= ndims=0 flags=0 type=0  length=() max=()
+    type = Attribute(12);    Name= valid_max dataPos = 5606
+ mdt= datatype= 1 byteSize= 4 NCtype= float flags= 32 31 0  endian=LITTLE
+ mds= ndims=1 flags=1 type=1  length=(1,) max=(1,)
+    type = Attribute(12);    Name= valid_min dataPos = 5675
+ mdt= datatype= 1 byteSize= 4 NCtype= float flags= 32 31 0  endian=LITTLE
+ mds= ndims=1 flags=1 type=1  length=(1,) max=(1,)
+2019-03-03 17:38:57,239 INFO c.e.c.ReadCdf [main] dataPos=13609648 datatype=hdfType=1 byteSize=4 dataType=float unsigned=false isVString=false vpad=0 endian=1 isChunked (4090 77 4 ) hasFilter; //  signed LittleEndian
+/sea_level_pressure id= 5686 messages= 
+    type = SimpleDataspace(1);  ndims=2 flags=1 type=1  length=(4090,77,) max=(4090,77,)
+    type = Datatype(3);  datatype= 1 byteSize= 4 NCtype= float flags= 32 31 0  endian=LITTLE
+    type = Attribute(12);    Name= DIMENSION_LIST dataPos = 14536
+ mdt= datatype= 9 byteSize= 16 NCtype= null flags= 0 0 0  endian=LITTLE isVString= false parent= { datatype= 7 byteSize= 8 NCtype= long flags= 0 0 0  endian=LITTLE referenceType= 0}
+ mds= ndims=1 flags=1 type=1  length=(2,) max=(2,)
+    type = Attribute(12);    Name= coordinates dataPos = 7389
+ mdt= datatype= 3 byteSize= 18 NCtype= char flags= 0 0 0  endian=LITTLE
+ mds= ndims=0 flags=0 type=0  length=() max=()
+    type = Attribute(12);    Name= long_name dataPos = 7444
+ mdt= datatype= 3 byteSize= 23 NCtype= char flags= 0 0 0  endian=LITTLE
+ mds= ndims=0 flags=0 type=0  length=() max=()
+    type = Attribute(12);    Name= standard_name dataPos = 7508
+ mdt= datatype= 3 byteSize= 25 NCtype= char flags= 0 0 0  endian=LITTLE
+ mds= ndims=0 flags=0 type=0  length=() max=()
+    type = Attribute(12);    Name= units dataPos = 7566
+ mdt= datatype= 3 byteSize= 3 NCtype= char flags= 0 0 0  endian=LITTLE
+ mds= ndims=0 flags=0 type=0  length=() max=()
+    type = Attribute(12);    Name= valid_max dataPos = 7634
+ mdt= datatype= 1 byteSize= 4 NCtype= float flags= 32 31 0  endian=LITTLE
+ mds= ndims=1 flags=1 type=1  length=(1,) max=(1,)
+    type = Attribute(12);    Name= valid_min dataPos = 7703
+ mdt= datatype= 1 byteSize= 4 NCtype= float flags= 32 31 0  endian=LITTLE
+ mds= ndims=1 flags=1 type=1  length=(1,) max=(1,)
+    type = FillValue(5);    FillValue version= 3 spaceAllocateTime = 3 fillWriteTime=2 hasFillValue= true
+ size = 4 value= 0 0 -128 -65
+    type = FilterPipeline(11);    MessageFilter filters=
+    Filter id= 2 flags = 1 nValues=1 name= shuffle data = 4 
+    Filter id= 1 flags = 2 nValues=0 name= deflate data = 
+
+    type = Layout(8);  type= 2 (chunked) storageSize = (4090,77,4) dataSize=0 dataAddress=13609648
+    type = AttributeInfo(21);    MessageAttributeInfo  fractalHeapAddress=-1 v2BtreeAddress=-1
+    type = Attribute(12);    Name= _FillValue dataPos = 5947
+ mdt= datatype= 1 byteSize= 4 NCtype= float flags= 32 31 0  endian=LITTLE
+ mds= ndims=1 flags=1 type=1  length=(1,) max=(1,)
+2019-03-03 17:38:57,241 INFO c.e.c.ReadCdf [main] dataPos=13612264 datatype=hdfType=1 byteSize=4 dataType=float unsigned=false isVString=false vpad=0 endian=1 isChunked (4090 77 4 ) hasFilter; //  signed LittleEndian
+/total_columnar_water_vapour id= 7715 messages= 
+    type = SimpleDataspace(1);  ndims=2 flags=1 type=1  length=(4090,77,) max=(4090,77,)
+    type = Datatype(3);  datatype= 1 byteSize= 4 NCtype= float flags= 32 31 0  endian=LITTLE
+    type = Attribute(12);    Name= DIMENSION_LIST dataPos = 13332
+ mdt= datatype= 9 byteSize= 16 NCtype= null flags= 0 0 0  endian=LITTLE isVString= false parent= { datatype= 7 byteSize= 8 NCtype= long flags= 0 0 0  endian=LITTLE referenceType= 0}
+ mds= ndims=1 flags=1 type=1  length=(2,) max=(2,)
+    type = FillValue(5);    FillValue version= 3 spaceAllocateTime = 3 fillWriteTime=2 hasFillValue= true
+ size = 4 value= 0 0 -128 -65
+    type = FilterPipeline(11);    MessageFilter filters=
+    Filter id= 2 flags = 1 nValues=1 name= shuffle data = 4 
+    Filter id= 1 flags = 2 nValues=0 name= deflate data = 
+
+    type = Layout(8);  type= 2 (chunked) storageSize = (4090,77,4) dataSize=0 dataAddress=13612264
+    type = AttributeInfo(21);    MessageAttributeInfo  fractalHeapAddress=-1 v2BtreeAddress=-1
+    type = Attribute(12);    Name= _FillValue dataPos = 7976
+ mdt= datatype= 1 byteSize= 4 NCtype= float flags= 32 31 0  endian=LITTLE
+ mds= ndims=1 flags=1 type=1  length=(1,) max=(1,)
+    type = Attribute(12);    Name= coordinates dataPos = 8019
+ mdt= datatype= 3 byteSize= 18 NCtype= char flags= 0 0 0  endian=LITTLE
+ mds= ndims=0 flags=0 type=0  length=() max=()
+    type = Attribute(12);    Name= long_name dataPos = 8074
+ mdt= datatype= 3 byteSize= 25 NCtype= char flags= 0 0 0  endian=LITTLE
+ mds= ndims=0 flags=0 type=0  length=() max=()
+    type = Attribute(12);    Name= standard_name dataPos = 8140
+ mdt= datatype= 3 byteSize= 30 NCtype= char flags= 0 0 0  endian=LITTLE
+ mds= ndims=0 flags=0 type=0  length=() max=()
+    type = Attribute(12);    Name= units dataPos = 8203
+ mdt= datatype= 3 byteSize= 6 NCtype= char flags= 0 0 0  endian=LITTLE
+ mds= ndims=0 flags=0 type=0  length=() max=()
+    type = Attribute(12);    Name= valid_max dataPos = 8274
+ mdt= datatype= 1 byteSize= 4 NCtype= float flags= 32 31 0  endian=LITTLE
+ mds= ndims=1 flags=1 type=1  length=(1,) max=(1,)
+    type = Attribute(12);    Name= valid_min dataPos = 8343
+ mdt= datatype= 1 byteSize= 4 NCtype= float flags= 32 31 0  endian=LITTLE
+ mds= ndims=1 flags=1 type=1  length=(1,) max=(1,)
+2019-03-03 17:38:57,242 INFO c.e.c.ReadCdf [main] dataPos=13614880 datatype=hdfType=1 byteSize=4 dataType=float unsigned=false isVString=false vpad=0 endian=1 isChunked (4090 77 4 ) hasFilter; //  signed LittleEndian
+/total_ozone id= 8355 messages= 
+    type = SimpleDataspace(1);  ndims=2 flags=1 type=1  length=(4090,77,) max=(4090,77,)
+    type = Datatype(3);  datatype= 1 byteSize= 4 NCtype= float flags= 32 31 0  endian=LITTLE
+    type = Attribute(12);    Name= DIMENSION_LIST dataPos = 14358
+ mdt= datatype= 9 byteSize= 16 NCtype= null flags= 0 0 0  endian=LITTLE isVString= false parent= { datatype= 7 byteSize= 8 NCtype= long flags= 0 0 0  endian=LITTLE referenceType= 0}
+ mds= ndims=1 flags=1 type=1  length=(2,) max=(2,)
+    type = FillValue(5);    FillValue version= 3 spaceAllocateTime = 3 fillWriteTime=2 hasFillValue= true
+ size = 4 value= 0 0 -128 -65
+    type = FilterPipeline(11);    MessageFilter filters=
+    Filter id= 2 flags = 1 nValues=1 name= shuffle data = 4 
+    Filter id= 1 flags = 2 nValues=0 name= deflate data = 
+
+    type = Layout(8);  type= 2 (chunked) storageSize = (4090,77,4) dataSize=0 dataAddress=13614880
+    type = AttributeInfo(21);    MessageAttributeInfo  fractalHeapAddress=-1 v2BtreeAddress=-1
+    type = Attribute(12);    Name= _FillValue dataPos = 8616
+ mdt= datatype= 1 byteSize= 4 NCtype= float flags= 32 31 0  endian=LITTLE
+ mds= ndims=1 flags=1 type=1  length=(1,) max=(1,)
+    type = Attribute(12);    Name= coordinates dataPos = 8659
+ mdt= datatype= 3 byteSize= 18 NCtype= char flags= 0 0 0  endian=LITTLE
+ mds= ndims=0 flags=0 type=0  length=() max=()
+    type = Attribute(12);    Name= long_name dataPos = 8714
+ mdt= datatype= 3 byteSize= 20 NCtype= char flags= 0 0 0  endian=LITTLE
+ mds= ndims=0 flags=0 type=0  length=() max=()
+    type = Attribute(12);    Name= standard_name dataPos = 8775
+ mdt= datatype= 3 byteSize= 32 NCtype= char flags= 0 0 0  endian=LITTLE
+ mds= ndims=0 flags=0 type=0  length=() max=()
+    type = Attribute(12);    Name= units dataPos = 8840
+ mdt= datatype= 3 byteSize= 6 NCtype= char flags= 0 0 0  endian=LITTLE
+ mds= ndims=0 flags=0 type=0  length=() max=()
+    type = Attribute(12);    Name= valid_max dataPos = 8911
+ mdt= datatype= 1 byteSize= 4 NCtype= float flags= 32 31 0  endian=LITTLE
+ mds= ndims=1 flags=1 type=1  length=(1,) max=(1,)
+    type = Attribute(12);    Name= valid_min dataPos = 8980
+ mdt= datatype= 1 byteSize= 4 NCtype= float flags= 32 31 0  endian=LITTLE
+ mds= ndims=1 flags=1 type=1  length=(1,) max=(1,)
