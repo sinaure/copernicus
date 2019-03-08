@@ -23,14 +23,67 @@ wget --no-check-certificate --user sinaure --password p0rtugal https://scihub.co
 
 ```
 
-### /ReadNetCdf
+### ReadNetCdf
 
 Run as: 
 
 with arguments var :   S3B_OL_2_LFR/instrument_data.nc  (file path)
 
+https://www.unidata.ucar.edu/software/thredds/current/netcdf-java/tutorial/NetcdfFile.html
 
+
+
+### Defis
+
+DEFIS THALES: REALTIME MONITORING + IOT
+
+DEFIS ATOS : utilizer les services Mundi
+
+DEFIS Cluster SAFE : securité jeux olympiques 2024
+
+DEFIS CNES : harvest forecasting / agricolture
+
+DEFIS KINAXIA : cityscan.fr  POLLUTION AIR / ANALYSE SOL / PLAN HURBANISME (vectoriel)
+
+DEFIS IGN : access a WMS / WMS /WMTS   (valorizer source des donnes IGN)
+
+
+
+### ATOS MUNDI
+
+https://jupyter.org/documentation
+
+https://mundiwebservices.com/marketplace 
 
 Mundi: Atos copernicus ==> dias
 
 CORE SERVICES (tematique) -- DIAS 
+
+Formats : NETCDF, cloud optimize geotiff, JPEG2000
+
+
+
+
+
+https://gis.stackexchange.com/questions/284946/converting-netcdf-to-geotiff-file
+
+SENTINEL ==> scheduled   PLEIADE ==> on demand
+
+SENTINEL 1-2 resolution (OPTIQUE = 10 RADAR = 50 m)
+
+
+
+### TOOLS
+
+install NetcdfUI
+
+https://www.unidata.ucar.edu/downloads/netcdf/index.jsp
+
+
+
+Idee : 
+
+1. get data NETcdf
+2. convert to geotiff or raster
+3. send to geoserver
+4. retrive from geoserver project to openlayer 
