@@ -75,9 +75,15 @@ SENTINEL 1-2 resolution (OPTIQUE = 10 RADAR = 50 m)
 
 ### TOOLS
 
-install NetcdfUI
+Download NetcdfUI
 
-https://www.unidata.ucar.edu/downloads/netcdf/index.jsp
+https://www.unidata.ucar.edu/software/thredds/v4.5/netcdf-java/ToolsUI.html
+
+java -Xmx1g -jar toolsUI.jar
+
+-----------------
+
+
 
 
 
