@@ -93,3 +93,19 @@ Idee :
 2. convert to geotiff or raster
 3. send to geoserver
 4. retrive from geoserver project to openlayer 
+
+### docker
+
+```bash
+docker volume create geoserver 
+docker volume create postgres_database
+docker-compose up
+
+```
+
+### GEOSERVER
+
+accessible at localhost:8088/geoserver
+
+1. create WMS
+2. consume wms from web app with gogle maps or openlayer

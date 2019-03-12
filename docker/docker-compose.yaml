@@ -14,9 +14,7 @@ services:
       interval: 30s
       timeout: 10s
       retries: 5
-    container_name: ${COMPOSE_PROJECT_NAME}-geoserver
-    external_links:
-        - ${COMPOSE_PROJECT_NAME}-rabbitmq
+    container_name: copernicus-geoserver
     networks:
       - gis
   postgis:
@@ -26,9 +24,7 @@ services:
     ports:
       - "5434:5432"
     restart: on-failure    
-    container_name: ${COMPOSE_PROJECT_NAME}-postgis
-    external_links:
-        - ${COMPOSE_PROJECT_NAME}-rabbitmq
+    container_name: copernicus-postgis
     networks:
       - gis
 
