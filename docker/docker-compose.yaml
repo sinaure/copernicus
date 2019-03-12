@@ -4,6 +4,7 @@ services:
     image: kartoza/geoserver:2.13.0
     volumes:
       - geoserver:/opt/geoserver/data_dir:Z
+      - ./geoserver/plugins/:/opt/geoserver/geoserver-exts/:Z
     ports:
       - "8088:8080"
     depends_on:

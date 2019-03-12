@@ -23,6 +23,9 @@ wget --no-check-certificate --user sinaure --password p0rtugal https://scihub.co
 
 ```
 
+which product?
+https://sentinel.esa.int/web/sentinel/user-guides/sentinel-3-olci/data-formats
+
 ### ReadNetCdf
 
 Run as: 
@@ -77,7 +80,7 @@ SENTINEL 1-2 resolution (OPTIQUE = 10 RADAR = 50 m)
 
 Download NetcdfUI
 
-https://www.unidata.ucar.edu/software/thredds/v4.5/netcdf-java/ToolsUI.html
+cd /lib
 
 java -Xmx1g -jar toolsUI.jar
 
@@ -106,6 +109,9 @@ docker-compose up
 ### GEOSERVER
 
 accessible at localhost:8088/geoserver
+https://geoserver.geo-solutions.it/edu/en/multidim/netcdf/netcdf_basics.html
+Install netcdf extesion
+https://geoserver.geo-solutions.it/edu/en/install_run/gs_extensions.html
 
 1. create WMS
 2. consume wms from web app with gogle maps or openlayer
